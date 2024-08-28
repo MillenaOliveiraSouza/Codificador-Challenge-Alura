@@ -1,0 +1,101 @@
+/* Mobile Styles para telas até 850px */
+@media screen and (max-width: 850px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .cabecalho img {
+        max-width: 80px;
+    }
+
+    .container-input {
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 4%;
+    }
+
+    .container-input .input {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #input-texto {
+        height: 150px;
+        font-size: 1rem;
+    }
+
+    #output {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #output img {
+        max-width: 200px;
+        margin: 10px auto;
+    }
+
+    .container-bnt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-bnt button {
+        width: 100%;
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .rodape {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+/* Mobile Styles para telas até 500px */
+@media screen and (max-width: 500px) {
+    .cabecalho h1 {
+        font-size: 1.2rem;
+    }
+
+    .cabecalho img {
+        max-width: 60px;
+    }
+
+    .container-input .input {
+        max-width: 100%;
+    }
+
+    #input-texto {
+        height: 120px;
+        font-size: 0.9rem;
+    }
+
+    #output {
+        width: 100%;
+        height: auto;
+    }
+
+    #output img {
+        max-width: 150px;
+    }
+
+    .container-bnt button {
+        max-width: 100px;
+        font-size: 0.8rem;
+    }
+
+    .input p {
+        font-size: 0.8rem;
+    }
+
+    .rodape h3 {
+        font-size: 0.9rem;
+    }
+}
